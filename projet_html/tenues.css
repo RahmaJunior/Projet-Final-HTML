@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 3% 10%;
+    background-color: rgb(202, 201, 201);
+}
+
+p {
+    line-height: 25px;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+nav ul li {
+    margin-left: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative
+}
+
+nav ul li span {
+    position: absolute;
+    top: -5px right -28px;
+}
+
+.links {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+.links a span {
+    position: absolute;
+    top: -5px right -28px
+}
+
+.link {
+    align-items: left;
+    padding-top: 70px;
+}
+
+.link a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    border: solid 2px;
+    background-color: white;
+    border-radius: 10px;
+}
+.imagess {
+    margin-top: 60px;
+}
+
+.imagess .image-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+.imagess .image-card .image-left {
+    margin-right: 40px;
+
+}
+
+.imagess .image-card .image-left img {
+    height: 400px;
+    width: 400px;
+}
